@@ -1,0 +1,1767 @@
+{
+  "repo": "more-europe-api-endpoints",
+  "title": "More Europe API endpoints",
+  "snapshot": "2026-11-16",
+  "snapshot_text": "16 Nov 2026",
+  "snapshot_time": "2026-11-16 00:00:00 IST",
+  "run": true,
+  "tested_total": 4452803,
+  "passed_total": 3346053,
+  "rows": 24552,
+  "unique_urls": 24552,
+  "services": 1189,
+  "country_codes": 31,
+  "single_country": null,
+  "agent_ready": 24552,
+  "range": {
+    "min": "2026-11-16",
+    "max": "2026-11-17",
+    "text": "16–17 Nov 2026"
+  },
+  "formats": {
+    "json": 24552
+  },
+  "categories": {
+    "Navigation & Geo/Maps": 12502,
+    "Government & Open Data": 8968,
+    "Transport & Mobility": 744,
+    "Environment": 734,
+    "Health": 411,
+    "Hydrology & Oceans": 272,
+    "Energy": 248,
+    "Weather & Climate": 196,
+    "Statistics & Economy": 176,
+    "Hazards": 99,
+    "Maritime": 68,
+    "Science": 61,
+    "Finance": 46,
+    "Aviation": 27
+  },
+  "tags": {
+    "agent-ready": 24552,
+    "json": 24552,
+    "no-key": 24552
+  },
+  "dates": {
+    "2026-11-17": 1,
+    "2026-11-16": 24551
+  },
+  "countryNames": {
+    "UA": "Ukraine",
+    "HR": "Croatia",
+    "CH": "Switzerland",
+    "IE": "Ireland",
+    "PT": "Portugal",
+    "BE": "Belgium",
+    "GR": "Greece",
+    "LV": "Latvia",
+    "LT": "Lithuania",
+    "SK": "Slovakia",
+    "EE": "Estonia",
+    "AT": "Austria",
+    "IM": "Isle of Man",
+    "RU": "Russia",
+    "GG": "Guernsey",
+    "BG": "Bulgaria",
+    "MT": "Malta",
+    "RO": "Romania",
+    "TR": "Turkiye",
+    "SI": "Slovenia",
+    "AD": "Andorra",
+    "HU": "Hungary",
+    "LU": "Luxembourg",
+    "MD": "Moldova",
+    "RS": "Serbia",
+    "CY": "Cyprus",
+    "LI": "Liechtenstein",
+    "MK": "North Macedonia",
+    "BY": "Belarus",
+    "SM": "San Marino",
+    "BA": "Bosnia and Herzegovina"
+  },
+  "leftOutCredential": 0,
+  "leftOutListing": 0,
+  "left_out_by_reason": {
+    "listing page, not a data call": 0,
+    "credential in the address": 0,
+    "private or local address": 0,
+    "email-like address": 0,
+    "survey form layer": 345,
+    "camera or image URL": 0,
+    "stored-login proxy": 0,
+    "class-exercise copy": 6,
+    "editable layer": 8,
+    "police stop records": 0,
+    "form answer layer": 27,
+    "needs an Indian network location": 0,
+    "leak check match": 0,
+    "coursework layer": 601,
+    "public input layer": 21,
+    "personal records layer": 16,
+    "service name like a class layer or a person": 0,
+    "social network server information": 0,
+    "another address of a left-out layer": 13,
+    "teaching organisation": 1,
+    "class account organisation": 59,
+    "class set layer": 222,
+    "university, college or school organisation": 9789,
+    "repeated address": 0,
+    "address already in an earlier pack": 32,
+    "layer already in an earlier pack": 8361,
+    "second address form of a layer": 8284
+  },
+  "leftOutExcluded": 0,
+  "left_out_by_rule": [],
+  "sample_rows": 1000,
+  "focus_rows": 8808,
+  "arcgis_online_rows": 22811,
+  "subcategories": {},
+  "agent_formats": [
+    "json"
+  ],
+  "largestServices": [
+    {
+      "service": "app2.ge.ch",
+      "display": "app2.ge.ch",
+      "host": "app2.ge.ch",
+      "endpoints": 1144,
+      "agent_ready": 1144,
+      "in_focus": 1139,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization 9P6TFiyjKisqXtKo",
+      "display": "ArcGIS Online layers (services9.arcgis.com, org 9P6TFiyjKisqXtKo)",
+      "host": "services9.arcgis.com",
+      "endpoints": 742,
+      "agent_ready": 742,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Magistrát hlavného mesta SR, Bratislava (ArcGIS Online)",
+      "display": "Magistrát hlavného mesta SR, Bratislava (ArcGIS Online)",
+      "host": "services8.arcgis.com",
+      "endpoints": 705,
+      "agent_ready": 705,
+      "in_focus": 701,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization jzslazl8UKsLRsUc",
+      "display": "ArcGIS Online layers (services3.arcgis.com, org jzslazl8UKsLRsUc)",
+      "host": "services3.arcgis.com",
+      "endpoints": 575,
+      "agent_ready": 575,
+      "in_focus": 0,
+      "country_codes": 3,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization fe2zzRbhcPNuoFC4",
+      "display": "ArcGIS Online layers (services.arcgis.com, org fe2zzRbhcPNuoFC4)",
+      "host": "services.arcgis.com",
+      "endpoints": 535,
+      "agent_ready": 535,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Central Asia and Caucasus GeoPortal Hub Community (ArcGIS Online)",
+      "display": "Central Asia and Caucasus GeoPortal Hub Community (ArcGIS Online)",
+      "host": "services5.arcgis.com",
+      "endpoints": 444,
+      "agent_ready": 444,
+      "in_focus": 440,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization zX8NTiUjIKUVyth8",
+      "display": "ArcGIS Online layers (services7.arcgis.com, org zX8NTiUjIKUVyth8)",
+      "host": "services7.arcgis.com",
+      "endpoints": 421,
+      "agent_ready": 421,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization v5dOXTEOb7ZHdNyQ",
+      "display": "ArcGIS Online layers (services-eu1.arcgis.com, org v5dOXTEOb7ZHdNyQ)",
+      "host": "services-eu1.arcgis.com",
+      "endpoints": 405,
+      "agent_ready": 405,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization uaOuNze8ggz2HsSW",
+      "display": "ArcGIS Online layers (services-eu1.arcgis.com, org uaOuNze8ggz2HsSW)",
+      "host": "services-eu1.arcgis.com",
+      "endpoints": 388,
+      "agent_ready": 388,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "IOM Haiti (ArcGIS Online)",
+      "display": "IOM Haiti (ArcGIS Online)",
+      "host": "services2.arcgis.com",
+      "endpoints": 374,
+      "agent_ready": 374,
+      "in_focus": 368,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization g8EzU2gNHvGpFUGY",
+      "display": "ArcGIS Online layers (services.arcgis.com, org g8EzU2gNHvGpFUGY)",
+      "host": "services.arcgis.com",
+      "endpoints": 356,
+      "agent_ready": 356,
+      "in_focus": 0,
+      "country_codes": 3,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization d0aKoUP6SrSc9Otp",
+      "display": "ArcGIS Online layers (services-eu1.arcgis.com, org d0aKoUP6SrSc9Otp)",
+      "host": "services-eu1.arcgis.com",
+      "endpoints": 302,
+      "agent_ready": 302,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS Online Grada Zagreba (ArcGIS Online)",
+      "display": "ArcGIS Online Grada Zagreba (ArcGIS Online)",
+      "host": "services8.arcgis.com",
+      "endpoints": 298,
+      "agent_ready": 298,
+      "in_focus": 294,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization 3xqaqHjPjIkFyICi",
+      "display": "ArcGIS Online layers (services-eu1.arcgis.com, org 3xqaqHjPjIkFyICi)",
+      "host": "services-eu1.arcgis.com",
+      "endpoints": 254,
+      "agent_ready": 254,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization 1cGVU2oTHcyk0zN5",
+      "display": "ArcGIS Online layers (services-eu1.arcgis.com, org 1cGVU2oTHcyk0zN5)",
+      "host": "services-eu1.arcgis.com",
+      "endpoints": 234,
+      "agent_ready": 234,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "Esri Portugal (ArcGIS Online)",
+      "display": "Esri Portugal (ArcGIS Online)",
+      "host": "services.arcgis.com",
+      "endpoints": 183,
+      "agent_ready": 183,
+      "in_focus": 181,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization JzVauvrMa89dBJ9D",
+      "display": "ArcGIS Online layers (services-eu1.arcgis.com, org JzVauvrMa89dBJ9D)",
+      "host": "services-eu1.arcgis.com",
+      "endpoints": 176,
+      "agent_ready": 176,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization f36cxNuTmfCJN313",
+      "display": "ArcGIS Online layers (services6.arcgis.com, org f36cxNuTmfCJN313)",
+      "host": "services6.arcgis.com",
+      "endpoints": 169,
+      "agent_ready": 169,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization hLNDTK5wuSZ71AQA",
+      "display": "ArcGIS Online layers (services1.arcgis.com, org hLNDTK5wuSZ71AQA)",
+      "host": "services1.arcgis.com",
+      "endpoints": 168,
+      "agent_ready": 168,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization rHAjZpbf6qHK8UCL",
+      "display": "ArcGIS Online layers (services-eu1.arcgis.com, org rHAjZpbf6qHK8UCL)",
+      "host": "services-eu1.arcgis.com",
+      "endpoints": 167,
+      "agent_ready": 167,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization ODrCBoJHlKVMl3Cg",
+      "display": "ArcGIS Online layers (services-eu1.arcgis.com, org ODrCBoJHlKVMl3Cg)",
+      "host": "services-eu1.arcgis.com",
+      "endpoints": 160,
+      "agent_ready": 160,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization a3Toeu62bI4KLwUL",
+      "display": "ArcGIS Online layers (services.arcgis.com, org a3Toeu62bI4KLwUL)",
+      "host": "services.arcgis.com",
+      "endpoints": 160,
+      "agent_ready": 160,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization 7pUfFainbiXCCjSD",
+      "display": "ArcGIS Online layers (services6.arcgis.com, org 7pUfFainbiXCCjSD)",
+      "host": "services6.arcgis.com",
+      "endpoints": 156,
+      "agent_ready": 156,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization wsyZMONdkqqPc2aP",
+      "display": "ArcGIS Online layers (services-eu1.arcgis.com, org wsyZMONdkqqPc2aP)",
+      "host": "services-eu1.arcgis.com",
+      "endpoints": 155,
+      "agent_ready": 155,
+      "in_focus": 0,
+      "country_codes": 2,
+      "formats": [
+        "json"
+      ]
+    },
+    {
+      "service": "ArcGIS organization S89MYXjXohkMMJly",
+      "display": "ArcGIS Online layers (services9.arcgis.com, org S89MYXjXohkMMJly)",
+      "host": "services9.arcgis.com",
+      "endpoints": 155,
+      "agent_ready": 155,
+      "in_focus": 0,
+      "country_codes": 1,
+      "formats": [
+        "json"
+      ]
+    }
+  ],
+  "bannerGroups": [
+    {
+      "label": "CH",
+      "n": 3625,
+      "agent": 3625
+    },
+    {
+      "label": "IE",
+      "n": 3252,
+      "agent": 3252
+    },
+    {
+      "label": "PT",
+      "n": 2619,
+      "agent": 2619
+    },
+    {
+      "label": "EE",
+      "n": 2248,
+      "agent": 2248
+    },
+    {
+      "label": "SK",
+      "n": 1895,
+      "agent": 1895
+    },
+    {
+      "label": "GR",
+      "n": 1721,
+      "agent": 1721
+    }
+  ],
+  "focus_text": "NOT title matches /(?<![a-z])(test|tests|testing|draft|drafts|copy|sample|samples|demo|untitled|scratch|temp|tmp|delete|deleteme|practice|dummy|example|training)(?![a-z])|final_final|\\d{7,}/i AND (NOT url matches ///(services[0-9]*(-[a-z0-9]+)?|utility)\\.arcgis\\.com//i OR NOT service matches /^ArcGIS organization /i)",
+  "buckets": [
+    {
+      "id": "agent",
+      "emoji": "🤖",
+      "name": "Agent tools",
+      "title": "Keyless JSON layers and tables an agent can call (European)",
+      "build": "Wrap one layer query as a get_layer_features tool: pass a where clause or a bounding box, return the matching features with a timeout.",
+      "filter": {
+        "tag": "agent-ready"
+      },
+      "filter_text": "tags has agent-ready",
+      "fallback": false,
+      "notes": [
+        {
+          "count": 24519,
+          "text": "are map-layer queries that asked for a few records (`resultRecordCount`); add a where clause or a geometry to ask about one place, and page through for the whole layer."
+        }
+      ],
+      "count": 24552,
+      "services_matching": 1189,
+      "country_codes_matching": 31,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://app2.ge.ch/tergeoservices/rest/services/Hosted/AGGLO_AIRE_URB/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+        "title": "Hosted/AGGLO_AIRE_URB",
+        "service": "app2.ge.ch",
+        "last_tested": "2026-11-16"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and are tagged `agent-ready` (no key sent in the test call, JSON body, passed a data call). Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Sample preference in this bucket: `url matches //query\\?/i`. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 304,
+        "services": [
+          {
+            "service": "app2.ge.ch",
+            "display": "app2.ge.ch",
+            "host": "app2.ge.ch",
+            "endpoints_in_bucket": 1144,
+            "endpoints_in_pack": 1144,
+            "country_codes": [
+              "CH"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://app2.ge.ch/tergeoservices/rest/services/Hosted/AGGLO_AIRE_URB/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Hosted/AGGLO_AIRE_URB",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Magistrát hlavného mesta SR, Bratislava (ArcGIS Online)",
+            "display": "Magistrát hlavného mesta SR, Bratislava (ArcGIS Online)",
+            "host": "services8.arcgis.com",
+            "endpoints_in_bucket": 705,
+            "endpoints_in_pack": 705,
+            "country_codes": [
+              "SK"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services8.arcgis.com/pRlN1m0su5BYaFAS/ArcGIS/rest/services/%C3%9AG_%C5%A1kolstva_aktualiz%C3%A1cia_2022/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ÚG_školstva_aktualizácia_2022",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Central Asia and Caucasus GeoPortal Hub Community (ArcGIS Online)",
+            "display": "Central Asia and Caucasus GeoPortal Hub Community (ArcGIS Online)",
+            "host": "services5.arcgis.com",
+            "endpoints_in_bucket": 444,
+            "endpoints_in_pack": 444,
+            "country_codes": [
+              "RU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services5.arcgis.com/Kri0Q7xwN5k6MG7L/ArcGIS/rest/services/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE_%D0%A2%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%A0%D0%9A/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Административно_Территориальное_деление_РК",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "IOM Haiti (ArcGIS Online)",
+            "display": "IOM Haiti (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 374,
+            "endpoints_in_pack": 374,
+            "country_codes": [
+              "CH"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/llfadFMmXWfR5SAz/ArcGIS/rest/services/%C3%89v%C3%A9nement_violent_survenu_entre_Round_3_et_Round_4__ACLED__2023_/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Événement_violent_survenu_entre_Round_3_et_Round_4__ACLED__2023_",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "ArcGIS Online Grada Zagreba (ArcGIS Online)",
+            "display": "ArcGIS Online Grada Zagreba (ArcGIS Online)",
+            "host": "services8.arcgis.com",
+            "endpoints_in_bucket": 298,
+            "endpoints_in_pack": 298,
+            "country_codes": [
+              "HR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services8.arcgis.com/Usi0jGQwMmBUpFjr/ArcGIS/rest/services/%C4%90or%C4%91i%C4%87eva_2022/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Đorđićeva_2022",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Esri Portugal (ArcGIS Online)",
+            "display": "Esri Portugal (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 183,
+            "endpoints_in_pack": 183,
+            "country_codes": [
+              "PT"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/CCZiGSEQbAxxFVh3/ArcGIS/rest/services/AOI_Arruda_dos_Vinhos/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "AOI_Arruda_dos_Vinhos",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "UAB ATAMIS (ArcGIS Online)",
+            "display": "UAB ATAMIS (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 154,
+            "endpoints_in_pack": 154,
+            "country_codes": [
+              "LT"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/fZxlFJk6nhKyvdmq/ArcGIS/rest/services/%C5%BDEM%C4%96S_PROCED%C5%AAROS_PANEV%C4%96%C5%BDIO_DEPAS/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ŽEMĖS_PROCEDŪROS_PANEVĖŽIO_DEPAS",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Tallinn (ArcGIS Online)",
+            "display": "Tallinn (ArcGIS Online)",
+            "host": "services3.arcgis.com",
+            "endpoints_in_bucket": 146,
+            "endpoints_in_pack": 146,
+            "country_codes": [
+              "EE"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services3.arcgis.com/FwX2qF9JecNSRnwr/ArcGIS/rest/services/%C3%BChistranspordi_peatus/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ühistranspordi_peatus",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          }
+        ]
+      }
+    },
+    {
+      "id": "app",
+      "emoji": "📱",
+      "name": "App features",
+      "title": "Map layers to draw in an app (European)",
+      "build": "Add the layers to an app map: read the layer once for its fields, then ask for the features in the visible area.",
+      "filter": {
+        "urlMatches": "/(Feature|Map)Server/"
+      },
+      "filter_text": "url matches //(Feature|Map)Server//i",
+      "fallback": false,
+      "notes": [],
+      "count": 24519,
+      "services_matching": 1188,
+      "country_codes_matching": 31,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://app2.ge.ch/tergeoservices/rest/services/Hosted/AGGLO_AIRE_URB/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+        "title": "Hosted/AGGLO_AIRE_URB",
+        "service": "app2.ge.ch",
+        "last_tested": "2026-11-16"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 303,
+        "services": [
+          {
+            "service": "app2.ge.ch",
+            "display": "app2.ge.ch",
+            "host": "app2.ge.ch",
+            "endpoints_in_bucket": 1144,
+            "endpoints_in_pack": 1144,
+            "country_codes": [
+              "CH"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://app2.ge.ch/tergeoservices/rest/services/Hosted/AGGLO_AIRE_URB/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Hosted/AGGLO_AIRE_URB",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Magistrát hlavného mesta SR, Bratislava (ArcGIS Online)",
+            "display": "Magistrát hlavného mesta SR, Bratislava (ArcGIS Online)",
+            "host": "services8.arcgis.com",
+            "endpoints_in_bucket": 705,
+            "endpoints_in_pack": 705,
+            "country_codes": [
+              "SK"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services8.arcgis.com/pRlN1m0su5BYaFAS/ArcGIS/rest/services/%C3%9AG_%C5%A1kolstva_aktualiz%C3%A1cia_2022/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ÚG_školstva_aktualizácia_2022",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Central Asia and Caucasus GeoPortal Hub Community (ArcGIS Online)",
+            "display": "Central Asia and Caucasus GeoPortal Hub Community (ArcGIS Online)",
+            "host": "services5.arcgis.com",
+            "endpoints_in_bucket": 444,
+            "endpoints_in_pack": 444,
+            "country_codes": [
+              "RU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services5.arcgis.com/Kri0Q7xwN5k6MG7L/ArcGIS/rest/services/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE_%D0%A2%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%A0%D0%9A/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Административно_Территориальное_деление_РК",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "IOM Haiti (ArcGIS Online)",
+            "display": "IOM Haiti (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 374,
+            "endpoints_in_pack": 374,
+            "country_codes": [
+              "CH"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/llfadFMmXWfR5SAz/ArcGIS/rest/services/%C3%89v%C3%A9nement_violent_survenu_entre_Round_3_et_Round_4__ACLED__2023_/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Événement_violent_survenu_entre_Round_3_et_Round_4__ACLED__2023_",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "ArcGIS Online Grada Zagreba (ArcGIS Online)",
+            "display": "ArcGIS Online Grada Zagreba (ArcGIS Online)",
+            "host": "services8.arcgis.com",
+            "endpoints_in_bucket": 298,
+            "endpoints_in_pack": 298,
+            "country_codes": [
+              "HR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services8.arcgis.com/Usi0jGQwMmBUpFjr/ArcGIS/rest/services/%C4%90or%C4%91i%C4%87eva_2022/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Đorđićeva_2022",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Esri Portugal (ArcGIS Online)",
+            "display": "Esri Portugal (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 183,
+            "endpoints_in_pack": 183,
+            "country_codes": [
+              "PT"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/CCZiGSEQbAxxFVh3/ArcGIS/rest/services/AOI_Arruda_dos_Vinhos/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "AOI_Arruda_dos_Vinhos",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "UAB ATAMIS (ArcGIS Online)",
+            "display": "UAB ATAMIS (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 154,
+            "endpoints_in_pack": 154,
+            "country_codes": [
+              "LT"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/fZxlFJk6nhKyvdmq/ArcGIS/rest/services/%C5%BDEM%C4%96S_PROCED%C5%AAROS_PANEV%C4%96%C5%BDIO_DEPAS/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ŽEMĖS_PROCEDŪROS_PANEVĖŽIO_DEPAS",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Tallinn (ArcGIS Online)",
+            "display": "Tallinn (ArcGIS Online)",
+            "host": "services3.arcgis.com",
+            "endpoints_in_bucket": 146,
+            "endpoints_in_pack": 146,
+            "country_codes": [
+              "EE"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services3.arcgis.com/FwX2qF9JecNSRnwr/ArcGIS/rest/services/%C3%BChistranspordi_peatus/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ühistranspordi_peatus",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          }
+        ]
+      }
+    },
+    {
+      "id": "grounding",
+      "emoji": "🧠",
+      "name": "Grounding and data pipelines",
+      "title": "Statistics, boundaries, parcels and inventories for scheduled loads (European)",
+      "build": "Load the tables and layers on a schedule into your own store, so an agent can cite a dated source.",
+      "filter": {
+        "or": [
+          {
+            "format": [
+              "csv",
+              "xml",
+              "geojson"
+            ]
+          },
+          {
+            "titleMatches": "statist|census|population|boundar|parcel|zoning|district|budget|election|crash|permit|inventory|land ?use|landuse|cadast|address"
+          }
+        ]
+      },
+      "filter_text": "format in (csv, xml, geojson) OR title matches /statist|census|population|boundar|parcel|zoning|district|budget|election|crash|permit|inventory|land ?use|landuse|cadast|address/i",
+      "fallback": false,
+      "notes": [],
+      "count": 585,
+      "services_matching": 163,
+      "country_codes_matching": 19,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://services6.arcgis.com/rZw4OLkXHeGknCxK/arcgis/rest/services/ADOPTEDCDP_LandUseZoning/FeatureServer/1/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+        "title": "ADOPTEDCDP_LandUseZoning - County Overview - RSES Settlement Hierarchy",
+        "service": "Meath County Council (ArcGIS Online)",
+        "last_tested": "2026-11-16"
+      },
+      "recommended": {
+        "criteria": "Services in this pack with the most endpoints that match this bucket and passed a data call. Ties go to the service with more country codes, then by name. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 63,
+        "services": [
+          {
+            "service": "Meath County Council (ArcGIS Online)",
+            "display": "Meath County Council (ArcGIS Online)",
+            "host": "services6.arcgis.com",
+            "endpoints_in_bucket": 46,
+            "endpoints_in_pack": 96,
+            "country_codes": [
+              "IE"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services6.arcgis.com/rZw4OLkXHeGknCxK/arcgis/rest/services/ADOPTEDCDP_LandUseZoning/FeatureServer/1/query?where=1%3D1&outFields=*&returnGeometry=false&resultRecordCount=5&f=json",
+            "sample_title": "ADOPTEDCDP_LandUseZoning - County Overview - RSES Settlement Hierarchy",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "South Dublin County Council (ArcGIS Online)",
+            "display": "South Dublin County Council (ArcGIS Online)",
+            "host": "services1.arcgis.com",
+            "endpoints_in_bucket": 22,
+            "endpoints_in_pack": 91,
+            "country_codes": [
+              "IE"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services1.arcgis.com/PxbTDTskGHCe4sv6/ArcGIS/rest/services/Appendix_1_Annual_Budget_2023_SDCC/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Appendix_1_Annual_Budget_2023_SDCC",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Dun Laoghaire Rathdown County Council (ArcGIS Online)",
+            "display": "Dun Laoghaire Rathdown County Council (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 21,
+            "endpoints_in_pack": 130,
+            "country_codes": [
+              "IE"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/41mg5wcsG0sphp5W/ArcGIS/rest/services/Ballyogan_Boundary/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Ballyogan_Boundary",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "app2.ge.ch",
+            "display": "app2.ge.ch",
+            "host": "app2.ge.ch",
+            "endpoints_in_bucket": 20,
+            "endpoints_in_pack": 1144,
+            "country_codes": [
+              "CH"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://app2.ge.ch/tergeoservices/rest/services/Hosted/CAD_PARCELLE_MENSU/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Hosted/CAD_PARCELLE_MENSU",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Central Asia and Caucasus GeoPortal Hub Community (ArcGIS Online)",
+            "display": "Central Asia and Caucasus GeoPortal Hub Community (ArcGIS Online)",
+            "host": "services5.arcgis.com",
+            "endpoints_in_bucket": 10,
+            "endpoints_in_pack": 444,
+            "country_codes": [
+              "RU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services5.arcgis.com/Kri0Q7xwN5k6MG7L/ArcGIS/rest/services/CA_boundary/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "CA_boundary",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Stadtmagistrat Innsbruck (ArcGIS Online)",
+            "display": "Stadtmagistrat Innsbruck (ArcGIS Online)",
+            "host": "services8.arcgis.com",
+            "endpoints_in_bucket": 10,
+            "endpoints_in_pack": 20,
+            "country_codes": [
+              "AT"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services8.arcgis.com/LxSaGwss445axp1E/ArcGIS/rest/services/statistik_03/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "statistik_03",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Rinkimų žemėlapių sistema (ArcGIS Online)",
+            "display": "Rinkimų žemėlapių sistema (ArcGIS Online)",
+            "host": "services5.arcgis.com",
+            "endpoints_in_bucket": 9,
+            "endpoints_in_pack": 72,
+            "country_codes": [
+              "LT"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services5.arcgis.com/1eJSoE398Vejvs53/ArcGIS/rest/services/LRS_2020_A_T2_STATISTICS/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "LRS_2020_A_T2_STATISTICS",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Wicklow County Council (ArcGIS Online)",
+            "display": "Wicklow County Council (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 9,
+            "endpoints_in_pack": 92,
+            "country_codes": [
+              "IE"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/hQOfkHGHCu8mgDpG/ArcGIS/rest/services/Bray_Sl%C3%A1intecare_Healthy_Community_boundary/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Bray_Sláintecare_Healthy_Community_boundary",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evals",
+      "emoji": "🧪",
+      "name": "Evals and testing",
+      "title": "Varied responses to test tool calls and parsers",
+      "build": "Run your tool calls against a fixed set of URLs across formats and record which answer; last_tested is the baseline for your own re-tests.",
+      "filter": {
+        "whole": true
+      },
+      "filter_text": "the whole pack",
+      "fallback": false,
+      "notes": [],
+      "count": 24552,
+      "services_matching": 1189,
+      "country_codes_matching": 31,
+      "formats_matching": 1,
+      "example": {
+        "url": "https://app2.ge.ch/tergeoservices/rest/services/Hosted/AGGLO_AIRE_URB/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+        "title": "Hosted/AGGLO_AIRE_URB",
+        "service": "app2.ge.ch",
+        "last_tested": "2026-11-16"
+      },
+      "recommended": {
+        "criteria": "Services in this pack that returned the most different formats, then the most endpoints that passed a data call, then by name: a mix of response shapes to test parsers and tool calls. Here the services returned 1 format each, so the order comes down to endpoint counts. Only services with at least one bucket row that matches the focus rule are listed, and the sample comes from those rows; the counts cover the whole bucket. The sample URL is the first row by URL sort after preferring, in this order: rows that match the bucket's sample preference when it has one, rows that return values rather than describe a dataset or a service (not ERDDAP /info/ pages, OGC GetCapabilities requests, bare OWS addresses, PxWeb tables, UN SDG series lists, Statistics Canada download pointers, WorldPop listings, GTFS validation reports, untitled rows or service root addresses), and agent-ready rows. Services named \"ArcGIS organization\" hold map layers from many owners and are added only when fewer than 5 other services match.",
+        "available": 304,
+        "services": [
+          {
+            "service": "app2.ge.ch",
+            "display": "app2.ge.ch",
+            "host": "app2.ge.ch",
+            "endpoints_in_bucket": 1144,
+            "endpoints_in_pack": 1144,
+            "country_codes": [
+              "CH"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://app2.ge.ch/tergeoservices/rest/services/Hosted/AGGLO_AIRE_URB/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Hosted/AGGLO_AIRE_URB",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Magistrát hlavného mesta SR, Bratislava (ArcGIS Online)",
+            "display": "Magistrát hlavného mesta SR, Bratislava (ArcGIS Online)",
+            "host": "services8.arcgis.com",
+            "endpoints_in_bucket": 705,
+            "endpoints_in_pack": 705,
+            "country_codes": [
+              "SK"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services8.arcgis.com/pRlN1m0su5BYaFAS/ArcGIS/rest/services/%C3%9AG_%C5%A1kolstva_aktualiz%C3%A1cia_2022/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ÚG_školstva_aktualizácia_2022",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Central Asia and Caucasus GeoPortal Hub Community (ArcGIS Online)",
+            "display": "Central Asia and Caucasus GeoPortal Hub Community (ArcGIS Online)",
+            "host": "services5.arcgis.com",
+            "endpoints_in_bucket": 444,
+            "endpoints_in_pack": 444,
+            "country_codes": [
+              "RU"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services5.arcgis.com/Kri0Q7xwN5k6MG7L/ArcGIS/rest/services/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE_%D0%A2%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%A0%D0%9A/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Административно_Территориальное_деление_РК",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "IOM Haiti (ArcGIS Online)",
+            "display": "IOM Haiti (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 374,
+            "endpoints_in_pack": 374,
+            "country_codes": [
+              "CH"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/llfadFMmXWfR5SAz/ArcGIS/rest/services/%C3%89v%C3%A9nement_violent_survenu_entre_Round_3_et_Round_4__ACLED__2023_/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Événement_violent_survenu_entre_Round_3_et_Round_4__ACLED__2023_",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "ArcGIS Online Grada Zagreba (ArcGIS Online)",
+            "display": "ArcGIS Online Grada Zagreba (ArcGIS Online)",
+            "host": "services8.arcgis.com",
+            "endpoints_in_bucket": 298,
+            "endpoints_in_pack": 298,
+            "country_codes": [
+              "HR"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services8.arcgis.com/Usi0jGQwMmBUpFjr/ArcGIS/rest/services/%C4%90or%C4%91i%C4%87eva_2022/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "Đorđićeva_2022",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Esri Portugal (ArcGIS Online)",
+            "display": "Esri Portugal (ArcGIS Online)",
+            "host": "services.arcgis.com",
+            "endpoints_in_bucket": 183,
+            "endpoints_in_pack": 183,
+            "country_codes": [
+              "PT"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services.arcgis.com/CCZiGSEQbAxxFVh3/ArcGIS/rest/services/AOI_Arruda_dos_Vinhos/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "AOI_Arruda_dos_Vinhos",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "UAB ATAMIS (ArcGIS Online)",
+            "display": "UAB ATAMIS (ArcGIS Online)",
+            "host": "services2.arcgis.com",
+            "endpoints_in_bucket": 154,
+            "endpoints_in_pack": 154,
+            "country_codes": [
+              "LT"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services2.arcgis.com/fZxlFJk6nhKyvdmq/ArcGIS/rest/services/%C5%BDEM%C4%96S_PROCED%C5%AAROS_PANEV%C4%96%C5%BDIO_DEPAS/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ŽEMĖS_PROCEDŪROS_PANEVĖŽIO_DEPAS",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          },
+          {
+            "service": "Tallinn (ArcGIS Online)",
+            "display": "Tallinn (ArcGIS Online)",
+            "host": "services3.arcgis.com",
+            "endpoints_in_bucket": 146,
+            "endpoints_in_pack": 146,
+            "country_codes": [
+              "EE"
+            ],
+            "formats": [
+              "json"
+            ],
+            "formats_in_pack": 1,
+            "sample_url": "https://services3.arcgis.com/FwX2qF9JecNSRnwr/ArcGIS/rest/services/%C3%BChistranspordi_peatus/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+            "sample_title": "ühistranspordi_peatus",
+            "sample_format": "json",
+            "sample_last_tested": "2026-11-16"
+          }
+        ]
+      }
+    }
+  ],
+  "questions": [
+    {
+      "q": "Which layers does the canton of Geneva serve?",
+      "filter": "url matches /app2\\.ge\\.ch/tergeoservices/rest/services//i",
+      "url": "https://app2.ge.ch/tergeoservices/rest/services/Hosted/AGGLO_AIRE_URB/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+      "title": "Hosted/AGGLO_AIRE_URB",
+      "service": "app2.ge.ch",
+      "last_tested": "2026-11-16",
+      "matching": 1144
+    },
+    {
+      "q": "Which layers does the city of Bratislava publish?",
+      "filter": "url matches /pRlN1m0su5BYaFAS/arcgis/rest/services//i",
+      "url": "https://services8.arcgis.com/pRlN1m0su5BYaFAS/ArcGIS/rest/services/%C3%9AG_%C5%A1kolstva_aktualiz%C3%A1cia_2022/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+      "title": "ÚG_školstva_aktualizácia_2022",
+      "service": "Magistrát hlavného mesta SR, Bratislava (ArcGIS Online)",
+      "last_tested": "2026-11-16",
+      "matching": 705
+    },
+    {
+      "q": "Which layers does the city of Zagreb publish?",
+      "filter": "url matches /Usi0jGQwMmBUpFjr/arcgis/rest/services//i",
+      "url": "https://services8.arcgis.com/Usi0jGQwMmBUpFjr/ArcGIS/rest/services/%C4%90or%C4%91i%C4%87eva_2022/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json",
+      "title": "Đorđićeva_2022",
+      "service": "ArcGIS Online Grada Zagreba (ArcGIS Online)",
+      "last_tested": "2026-11-16",
+      "matching": 298
+    }
+  ],
+  "preview_focused": true,
+  "preview": [
+    {
+      "title": "Hosted/AGGLO_AIRE_URB",
+      "service": "app2.ge.ch",
+      "country": "CH",
+      "category": "Navigation & Geo/Maps",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "app2.ge.ch",
+      "url": "https://app2.ge.ch/tergeoservices/rest/services/Hosted/AGGLO_AIRE_URB/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    },
+    {
+      "title": "ÚG_školstva_aktualizácia_2022",
+      "service": "Magistrát hlavného mesta SR, Bratislava (ArcGIS Online)",
+      "country": "SK",
+      "category": "Navigation & Geo/Maps",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services8.arcgis.com",
+      "url": "https://services8.arcgis.com/pRlN1m0su5BYaFAS/ArcGIS/rest/services/%C3%9AG_%C5%A1kolstva_aktualiz%C3%A1cia_2022/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    },
+    {
+      "title": "Административно_Территориальное_деление_РК",
+      "service": "Central Asia and Caucasus GeoPortal Hub Community (ArcGIS Online)",
+      "country": "RU",
+      "category": "Navigation & Geo/Maps",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services5.arcgis.com",
+      "url": "https://services5.arcgis.com/Kri0Q7xwN5k6MG7L/ArcGIS/rest/services/%D0%90%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D0%BE_%D0%A2%D0%B5%D1%80%D1%80%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5_%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%A0%D0%9A/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    },
+    {
+      "title": "Événement_violent_survenu_entre_Round_3_et_Round_4__ACLED__2023_",
+      "service": "IOM Haiti (ArcGIS Online)",
+      "country": "CH",
+      "category": "Navigation & Geo/Maps",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services2.arcgis.com",
+      "url": "https://services2.arcgis.com/llfadFMmXWfR5SAz/ArcGIS/rest/services/%C3%89v%C3%A9nement_violent_survenu_entre_Round_3_et_Round_4__ACLED__2023_/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    },
+    {
+      "title": "Đorđićeva_2022",
+      "service": "ArcGIS Online Grada Zagreba (ArcGIS Online)",
+      "country": "HR",
+      "category": "Navigation & Geo/Maps",
+      "subcategory": "",
+      "format": "json",
+      "tags": "no-key|json|agent-ready",
+      "last_tested": "2026-11-16",
+      "host": "services8.arcgis.com",
+      "url": "https://services8.arcgis.com/Usi0jGQwMmBUpFjr/ArcGIS/rest/services/%C4%90or%C4%91i%C4%87eva_2022/FeatureServer/0/query?where=1%3D1&outFields=*&resultRecordCount=10&f=json"
+    }
+  ],
+  "limits": [
+    {
+      "id": "skew",
+      "text": "14.8% of rows carry country code CH; 0 rows have no code (global or unknown)."
+    },
+    {
+      "id": "record-count",
+      "text": "24,519 rows are map-layer queries with resultRecordCount set: the tested call asked for a few records; change the query to get the full layer."
+    },
+    {
+      "id": "pack",
+      "text": "22,811 rows are layers on ArcGIS Online, where anyone can publish: some are class projects, tests or copies. Check the owner and the fields before you rely on one. Only layers of organisations with a name of their own, whose titles do not read as a test, draft or copy, are used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "725 rows have a title that reads as a test, a draft, a copy or a sample; they are not used as starting points."
+    },
+    {
+      "id": "pack",
+      "text": "The country code (31 more European codes, from AD to XK; the larger European countries have their own packs) is the code the endpoint is filed under, not the place the data covers and not always the publisher's country. Where a row had no code, the code of its ArcGIS organisation is used when that organisation lists one country only. In a sample of 14 titles read before release, 1 was about a place outside Europe. Filter by title or service if you need data about one place."
+    },
+    {
+      "id": "quiet",
+      "text": "Stations and feeds can go quiet after their test date; re-test a URL before you rely on it."
+    },
+    {
+      "id": "not-in",
+      "text": "Not in this pack: endpoints that need a key or a POST, and URLs that did not pass."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 345 ArcGIS Survey123 layers (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 6 class-exercise copies of the same few ArcGIS Online layers (Miami Beach sea level rise, high-risk areas without shelter, flooded areas, sea level rise and storm surge maps) across many organisations, many with a person's name in the title."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 8 layers marked editable in the title (they can hold entries that people added)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 27 ArcGIS layers that keep a form's default service name (they can hold people's form answers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 601 ArcGIS class or coursework layers (lab, assignment, exam, quiz, lesson, exercise, tutorial and final-project layers, copies of class layers, layers named for a person or a person's home, and layers whose name ends in a person's name or holds a student number)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 21 ArcGIS layers that hold reports, comments, submissions or form responses sent in by the public."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 16 ArcGIS layers that are records about named people (employee, patient, client or donor lists, home addresses, voter lists, sex offender and missing person layers)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 13 rows that are another address of an ArcGIS layer dropped for what it holds (one of the reasons above, found under another address of the layer)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 1 row of ArcGIS Online organisations that are class accounts (25 layers or more, at least 50% of them class or coursework layers): their other layers are students' work too."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 59 rows of ArcGIS Online organisations that are class accounts (3 class sets or more in at least 20% of their rows, 10 class sets or more with no organisation name, or layers signed by students read by hand): their other layers are students' work too."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 222 rows of class sets: one map layer saved under 5 or more students' initials or names in one ArcGIS Online organisation, or in 4 or more students' own organisations."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 9,789 rows of university, college and school organisations and hosts (many of their layers are students' work)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 32 rows whose address is already in an earlier pack of the collection."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 8,361 rows that are another address form of an ArcGIS layer already in an earlier pack of the collection (the same rows under another query)."
+    },
+    {
+      "id": "left-out",
+      "text": "Left out: 8,284 rows that are a second address form of an ArcGIS layer in this list (the same rows under another query); one address is kept per layer, the newest test first."
+    }
+  ],
+  "name": "24k-more-europe-apis-for-agents",
+  "services_tested": null,
+  "services_file_rows": 1189,
+  "sample_mix": [
+    {
+      "source": "ArcGIS Online layers",
+      "focus_rows": 7077,
+      "sample_rows": 500
+    },
+    {
+      "source": "app2.ge.ch",
+      "focus_rows": 1139,
+      "sample_rows": 305
+    },
+    {
+      "source": "Unibe (gis.cde.unibe.ch)",
+      "focus_rows": 143,
+      "sample_rows": 39
+    },
+    {
+      "source": "Region Bsk (gis.region-bsk.sk)",
+      "focus_rows": 99,
+      "sample_rows": 27
+    },
+    {
+      "source": "Klaipeda (maps.klaipeda.lt)",
+      "focus_rows": 64,
+      "sample_rows": 19
+    },
+    {
+      "source": "dspace.kntu.kr.ua",
+      "focus_rows": 33,
+      "sample_rows": 10
+    },
+    {
+      "source": "Stat (osp-sdg.stat.gov.lt)",
+      "focus_rows": 30,
+      "sample_rows": 10
+    },
+    {
+      "source": "Vplanas (gis.vplanas.lt)",
+      "focus_rows": 28,
+      "sample_rows": 9
+    },
+    {
+      "source": "ge.ch",
+      "focus_rows": 27,
+      "sample_rows": 8
+    },
+    {
+      "source": "Cm Loures (geoweb1.cm-loures.pt)",
+      "focus_rows": 23,
+      "sample_rows": 8
+    }
+  ],
+  "sample_focus_rows": 8808,
+  "sample_rule": "1,000 rows, or one third of the pack rounded down, whichever is smaller",
+  "files": [
+    {
+      "name": "data/More_Europe_API_Services_AgentPopulation.csv",
+      "rows": 1189,
+      "bytes": 77114,
+      "sha256": "a9299c0cc2841fd1bdadaf68d00a7c70f03e4edbbfef15452950ef902f6b54a6"
+    },
+    {
+      "name": "data/More_Europe_API_Endpoints_AgentPopulation_Sample.csv",
+      "rows": 1000,
+      "bytes": 299940,
+      "sha256": "ecb776a90b2ebcb15bb6aba4304473fe92f1383e5f3c41bf236b33d90ab9edf1"
+    },
+    {
+      "name": "data/More_Europe_API_Endpoints_AgentPopulation_Sample.json",
+      "rows": 1000,
+      "bytes": 482817,
+      "sha256": "65b14ecced5b887198af544c59d4fd07230ee78fd5dd4d653908f853dc117dd1"
+    }
+  ],
+  "release_asset": {
+    "name": "More_Europe_API_Endpoints_AgentPopulation_Snapshot_2026-11-16.csv.gz",
+    "rows": 24552,
+    "bytes": 515818,
+    "raw_bytes": 8033120,
+    "sha256": "eab543f08915a5fd5d06f22cc30a340015d0401b3611cf7c52d8be450d692f65",
+    "url": "https://github.com/agentpopulation/24k-more-europe-apis-for-agents/releases/latest/download/More_Europe_API_Endpoints_AgentPopulation_Snapshot_2026-11-16.csv.gz"
+  },
+  "release_tag": "snapshot-2026-11-16",
+  "overlaps": [
+    {
+      "repo": "weather-api-endpoints",
+      "name": "170k-weather-apis-for-agents",
+      "title": "Weather API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "transit-api-endpoints",
+      "name": "240k-transit-apis-for-agents",
+      "title": "Transit API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "water-api-endpoints",
+      "name": "260k-water-apis-for-agents",
+      "title": "Rivers and water API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "finance-economy-api-endpoints",
+      "name": "120k-finance-economy-apis-for-agents",
+      "title": "Finance and economy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "india-api-endpoints",
+      "name": "130k-india-apis-for-agents",
+      "title": "India API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "government-open-data-api-endpoints",
+      "name": "1.2m-government-open-data-apis",
+      "title": "Government open data API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "statistics-api-endpoints",
+      "name": "270k-statistics-apis-for-agents",
+      "title": "Statistics and census API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "oceans-api-endpoints",
+      "name": "84k-oceans-apis-for-agents",
+      "title": "Ocean and marine API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "maritime-api-endpoints",
+      "name": "22k-maritime-apis-for-agents",
+      "title": "Maritime API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "environment-api-endpoints",
+      "name": "160k-environment-apis-for-agents",
+      "title": "Environment API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "air-quality-api-endpoints",
+      "name": "19k-air-quality-apis-for-agents",
+      "title": "Air quality API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "maps-gis-api-endpoints",
+      "name": "350k-maps-gis-apis-for-agents",
+      "title": "Maps and GIS API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "agent-ready-api-endpoints",
+      "name": "2.2m-agent-ready-apis",
+      "title": "Agent-ready API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "health-api-endpoints",
+      "name": "84k-health-apis-for-agents",
+      "title": "Health API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "science-api-endpoints",
+      "name": "380k-science-apis-for-agents",
+      "title": "Science API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "hazards-api-endpoints",
+      "name": "40k-hazards-apis-for-agents",
+      "title": "Hazards and alerts API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "wildfire-api-endpoints",
+      "name": "4.9k-wildfire-apis-for-agents",
+      "title": "Wildfire API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "energy-api-endpoints",
+      "name": "67k-energy-apis-for-agents",
+      "title": "Energy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "aviation-api-endpoints",
+      "name": "23k-aviation-apis-for-agents",
+      "title": "Aviation API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "traffic-api-endpoints",
+      "name": "22k-traffic-apis-for-agents",
+      "title": "Traffic and roadworks API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "parking-api-endpoints",
+      "name": "10k-parking-apis-for-agents",
+      "title": "Parking API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "earthquake-api-endpoints",
+      "name": "7.8k-earthquake-apis-for-agents",
+      "title": "Earthquake API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "volcano-tsunami-api-endpoints",
+      "name": "4.2k-volcano-tsunami-apis-for-agents",
+      "title": "Volcano and tsunami API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "bike-share-api-endpoints",
+      "name": "17k-bike-share-apis-for-agents",
+      "title": "Bike-share API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "united-states-api-endpoints",
+      "name": "750k-united-states-apis-for-agents",
+      "title": "United States API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "united-kingdom-api-endpoints",
+      "name": "52k-united-kingdom-apis-for-agents",
+      "title": "United Kingdom API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "france-api-endpoints",
+      "name": "47k-france-apis-for-agents",
+      "title": "France API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "spain-api-endpoints",
+      "name": "8.1k-spain-apis-for-agents",
+      "title": "Spain API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "indonesia-api-endpoints",
+      "name": "22k-indonesia-apis-for-agents",
+      "title": "Indonesia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "canada-api-endpoints",
+      "name": "19k-canada-apis-for-agents",
+      "title": "Canada API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "netherlands-api-endpoints",
+      "name": "17k-netherlands-apis-for-agents",
+      "title": "Netherlands API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "germany-api-endpoints",
+      "name": "14k-germany-apis-for-agents",
+      "title": "Germany API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "norway-api-endpoints",
+      "name": "12k-norway-apis-for-agents",
+      "title": "Norway API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "brazil-api-endpoints",
+      "name": "14k-brazil-apis-for-agents",
+      "title": "Brazil API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "japan-api-endpoints",
+      "name": "9.8k-japan-apis-for-agents",
+      "title": "Japan API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "australia-api-endpoints",
+      "name": "12k-australia-apis-for-agents",
+      "title": "Australia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "colombia-api-endpoints",
+      "name": "10k-colombia-apis-for-agents",
+      "title": "Colombia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "czechia-api-endpoints",
+      "name": "6.3k-czechia-apis-for-agents",
+      "title": "Czechia API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "poland-api-endpoints",
+      "name": "6.3k-poland-apis-for-agents",
+      "title": "Poland API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "taiwan-api-endpoints",
+      "name": "4.2k-taiwan-apis-for-agents",
+      "title": "Taiwan API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "italy-api-endpoints",
+      "name": "7.3k-italy-apis-for-agents",
+      "title": "Italy API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "new-zealand-api-endpoints",
+      "name": "6.1k-new-zealand-apis-for-agents",
+      "title": "New Zealand API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "nordic-api-endpoints",
+      "name": "13k-nordic-apis-for-agents",
+      "title": "Nordic API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "latin-america-caribbean-api-endpoints",
+      "name": "20k-latin-america-caribbean-apis-for-agents",
+      "title": "Latin America and Caribbean API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "europe-region-arcgis-api-endpoints",
+      "name": "59k-europe-region-arcgis-apis-for-agents",
+      "title": "Europe-region ArcGIS API endpoints",
+      "shared": 5841
+    },
+    {
+      "repo": "middle-east-africa-api-endpoints",
+      "name": "6.7k-middle-east-africa-apis-for-agents",
+      "title": "Middle East and Africa API endpoints",
+      "shared": 0
+    },
+    {
+      "repo": "county-and-city-gis-api-endpoints",
+      "name": "160k-county-and-city-gis-apis-for-agents",
+      "title": "County and city GIS API endpoints",
+      "shared": 1134
+    },
+    {
+      "repo": "public-agency-gis-api-endpoints",
+      "name": "47k-public-agency-gis-apis-for-agents",
+      "title": "Public agency GIS API endpoints",
+      "shared": 204
+    },
+    {
+      "repo": "arcgis-server-api-endpoints",
+      "name": "25k-arcgis-server-apis-for-agents",
+      "title": "ArcGIS Server API endpoints",
+      "shared": 1708
+    }
+  ],
+  "pack_count": 50,
+  "description": "24,552 European API endpoints that passed a keyless data call. For agent tools, apps, pipelines and evals. CSV, CC BY 4.0.",
+  "readme_ap_share": 0.083,
+  "country_counts": {
+    "CH": 3625,
+    "IE": 3252,
+    "PT": 2619,
+    "EE": 2248,
+    "SK": 1895,
+    "GR": 1721,
+    "BE": 1343,
+    "LT": 1330,
+    "TR": 975,
+    "HR": 957,
+    "LV": 884,
+    "RU": 878,
+    "UA": 765,
+    "BG": 729,
+    "AT": 673,
+    "SI": 244,
+    "RO": 179,
+    "HU": 105,
+    "LU": 55,
+    "CY": 12,
+    "MT": 11,
+    "GG": 10,
+    "BA": 9,
+    "MK": 9,
+    "AD": 8,
+    "RS": 6,
+    "BY": 4,
+    "IM": 3,
+    "LI": 1,
+    "MD": 1,
+    "SM": 1
+  }
+}
